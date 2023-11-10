@@ -7,7 +7,7 @@ import { Column, Model, PrimaryKey, Table } from "sequelize-typescript";
 
 export class ProductModel extends Model {
 
-    @PrimaryKey
+  @PrimaryKey
   @Column({ allowNull: false })
   id: string;
 
